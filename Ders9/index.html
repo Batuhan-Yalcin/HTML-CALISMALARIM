@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  GÖNDER BUTONUNA BASINCA ACTİON ÇALIŞIR METHODDA VERİLERİ GÖNDERİRKEN GET Mİ POST MU OLACAĞINI BELİRLER.-->
+    <form action="#" method="#">
+      Adınız :   <input type="text" placeholder="İsminizi Giriniz"/> 
+      Soyadınız :  <input type="text" placeholder="Soyadınızı Giriniz">   
+      Emailiniz : <input type="email" placeholder="Mail Adresinizi Giriniz"> 
+      Şifreniz : <input type="password" placeholder="Şifrenizi Giriniz"> 
+      <H3>Hobilerinizi Seçiniz</H3>
+      Kitap Okumak  <input type="checkbox"><br>
+      Futbol  <input type="checkbox"><br> <!-- Ne kadar kutu varsa hepsine tıklanabilen bir kutu checkbox -->
+      Yüzme  <input type="checkbox"><br> <br>
+    Kadın  <input type="radio" name="cns" id="Kadın"><br>
+    Erkek  <input type="radio" name="cns" id="Erkek" checked ="true"><br> <!-- Sadece 1 Butona Tıklama Seçeneği Sunar radio Checked direkt seçili hale getirir  -->
+    Dosya Seçiniz <input type="file" name="" id=""> <br> <br> <!--  Dosya Seçiniz Butonu Oluşturur Dosya seçme işlemi yaptırır -->
+    İçecekler <br>
+    <select>
+        <option value="#">Çay</option> <!-- Select Option Hani İl seçiniz dersin de iller alt alta bir kutuda sıralanır ya tam o işte-->
+        <option value="#">Kahve</option>
+        <option value="#">Gazoz</option>
+    </select>
+    <br> <br>
+    <textarea name="mesajInput" id="mesajAlani" cols="70" rows="30"></textarea> <br> <!-- Cols kolon rows satır demek -->
+    
+    <input type="submit" value="Gönder"> <br> <br> <!-- Buton Oluşturur Submit -->
+    <input type="reset" value="Temizle"> <br> <!--  Formda Girilen Verileri Temizleyen Bir butondur -->
+    
+    </form>
+
+</body>
+</html>
